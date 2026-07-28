@@ -19,7 +19,7 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span>
             </span>
-            ACCEPTING NEW PROJECTS FOR 2024
+            ACCEPTING NEW PROJECTS ANYTIME
           </div>
           
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-black leading-[0.9] tracking-tighter uppercase">
