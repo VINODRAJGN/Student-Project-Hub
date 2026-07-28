@@ -12,8 +12,8 @@ const faqs = [
     a: "Yes! Along with the source code, we provide full project reports, synopsis, PPTs, and IEEE base papers if required by your university."
   },
   {
-    q: "What if I don't know how to run the code during the Viva?",
-    a: "We don't just send a zip file. We guide you through the setup, provide detailed documentation, and explain the architecture so you can answer any cross-questioning confidently."
+    q: "What exactly do I receive with my project?",
+    a: "You receive the complete source code, a full project report (as per your university format), and a PPT presentation. Everything is ready to submit directly to your college."
   },
   {
     q: "Can you make last-minute changes if my guide asks for them?",

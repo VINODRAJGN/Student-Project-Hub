@@ -1,11 +1,13 @@
 import { motion } from 'framer-motion';
+import logo from '@assets/image_1785265316901.png';
 
 export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-40 bg-background/90 backdrop-blur-md border-b border-border/40">
        <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-          <a href="#" className="font-display font-black text-2xl tracking-tighter text-primary">
-            VS IMPLEMENTS<span className="text-secondary">.</span>
+          <a href="#" className="flex items-center gap-2.5">
+            <img src={logo} alt="VS Implements Logo" className="w-9 h-9 object-contain" />
+            <span className="font-display font-black text-2xl tracking-tighter text-primary">VS IMPLEMENTS<span className="text-secondary">.</span></span>
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm font-bold uppercase tracking-wider text-muted-foreground">
              <a href="#domains" className="hover:text-primary transition-colors">Domains</a>

@@ -15,8 +15,8 @@ const steps = [
   },
   {
     num: "03",
-    title: "Delivery & Explanation",
-    desc: "Get the complete source code, reports, and a walkthrough of how it works so you can confidently face your viva.",
+    title: "Full Delivery",
+    desc: "Receive the complete source code, project report, and PPT — all formatted to your college's requirements, on or before your deadline.",
     color: "bg-accent text-accent-foreground"
   }
 ];

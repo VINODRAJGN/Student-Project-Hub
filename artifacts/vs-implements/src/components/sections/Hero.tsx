@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import logo from '@assets/image_1785265316901.png';
 
 export default function Hero() {
   return (
@@ -30,7 +31,7 @@ export default function Hero() {
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-lg leading-relaxed font-medium">
             The most trusted project implementation service for Indian college students. 
-            From hardcore engineering to management — we build it, explain it, and guarantee your grade.
+            We build your project, write the report, and prepare your PPT — submission-ready, on time.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 pt-4">

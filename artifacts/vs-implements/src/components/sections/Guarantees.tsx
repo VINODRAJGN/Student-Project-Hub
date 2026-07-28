@@ -16,8 +16,8 @@ const guarantees = [
   },
   {
     icon: BookOpen,
-    title: "Viva Preparation",
-    desc: "We don't just deliver the code; we explain how it works. You'll be ready for any question the examiner asks.",
+    title: "Report + PPT Included",
+    desc: "Every project comes with a complete project report and presentation slides — formatted to your university standards.",
     color: "bg-purple-400"
   },
   {
