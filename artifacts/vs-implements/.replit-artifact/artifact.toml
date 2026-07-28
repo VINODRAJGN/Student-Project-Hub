@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "VS Implements"
+version = "1.0.0"
+id = "artifacts/vs-implements"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25456
+
+[services.development]
+run = "pnpm --filter @workspace/vs-implements run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/vs-implements", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/vs-implements/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25456"
+BASE_PATH = "/"
